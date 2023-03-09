@@ -12,7 +12,7 @@ module.exports = {
         
         const text = new TextInputBuilder()
         .setCustomId('text') // Changing not recommended unless you know what you're doing.
-        .setLabel("What do you want me to say?")
+        .setLabel("Enter Message (Made By NotNate#0278)")
         .setMaxLength(100) // Can be changed to anything
         .setStyle(TextInputStyle.Paragraph); // Recommended to keep on Paragraph
         
